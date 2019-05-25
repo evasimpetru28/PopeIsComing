@@ -34,7 +34,7 @@ public class ConectorExtern {
 
         Biserica sfintiiApostoli = new Biserica();
         sfintiiApostoli.nume = "Catedrala Sfintii Aposotli";
-        sfintiiApostoli.lunaDeVizita = "March";
+        sfintiiApostoli.lunaDeVizita = "march";
         sfintiiApostoli.tipReligie = "ortodoxa";
 
         biserici.add(sfintiiApostoli);
