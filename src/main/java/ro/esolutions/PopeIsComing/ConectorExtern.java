@@ -20,21 +20,21 @@ public class ConectorExtern {
 
         Biserica SfMaria = new Biserica();
         SfMaria.nume = "Biserica Sf Maria";
-        SfMaria.lunaDeVizita = "iulie";
+        SfMaria.lunaDeVizita = "October";
         SfMaria.tipReligie = "ortodoxa";
 
         biserici.add(SfMaria);
 
         Biserica treiSfinti = new Biserica();
         treiSfinti.nume = "Biserica Trei Sfinti";
-        treiSfinti.lunaDeVizita = "octombrie";
+        treiSfinti.lunaDeVizita = "July";
         treiSfinti.tipReligie = "catolica";
 
         biserici.add(treiSfinti);
 
         Biserica sfintiiApostoli = new Biserica();
         sfintiiApostoli.nume = "Catedrala Sfintii Aposotli";
-        sfintiiApostoli.lunaDeVizita = "aprilie";
+        sfintiiApostoli.lunaDeVizita = "March";
         sfintiiApostoli.tipReligie = "ortodoxa";
 
         biserici.add(sfintiiApostoli);
@@ -42,20 +42,21 @@ public class ConectorExtern {
         Biserica constantinSiElena = new Biserica();
         constantinSiElena.nume = "Biserica Sfintii Constantin si Elena";
         constantinSiElena.tipReligie = "ortodoxa";
-        constantinSiElena.lunaDeVizita = "martie";
+        constantinSiElena.lunaDeVizita = "January";
 
         biserici.add(constantinSiElena);
 
         Biserica SfAndrei = new Biserica();
         SfAndrei.nume = "Biserica Sfantul Andrei";
         SfAndrei.tipReligie = "catolica";
-        SfAndrei.lunaDeVizita = "aprilie";
+        SfAndrei.lunaDeVizita = "January";
 
         biserici.add(SfAndrei);
 
         for (int i = 0; i < biserici.size(); i ++) {
-            if (biserici.get(i).lunaDeVizita.equals(month))  // echivalent cu ==
+            if (biserici.get(i).lunaDeVizita.equals(month)) {  // echivalent cu ==
                 raspuns += biserici.get(i).nume + ", ";
+            }
         }
 
 
