@@ -54,7 +54,7 @@ public class ConectorExtern {
         biserici.add(SfAndrei);
 
         for (int i = 0; i < biserici.size(); i ++) {
-            if (biserici.get(i).lunaDeVizita == month)
+            if (biserici.get(i).lunaDeVizita.equals(month))  // echivalent cu ==
                 raspuns += biserici.get(i).nume + ", ";
         }
 
